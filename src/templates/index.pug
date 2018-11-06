@@ -1,0 +1,28 @@
+extends _layout/layout
+
+//- Các giá trị mặc định cho trang web
+block variables
+	- var title = 'Home'
+	- var description = 'Description for home page'
+	- var bodyclass = 'home'
+
+//- Phần khai báo body
+block body
+	section.home
+		.slider.owl-carousel.owl-theme
+			.item
+				img(src="./img/home/slide_bg_01.png", alt="")
+				.title
+					p Lorem ipsum dolor sit amet consectetur adipisicing elit.
+			.item
+				img(src="./img/home/slide_bg_02.png", alt="")
+				.title
+					p Lorem ipsum dolor sit amet consectetur adipisicing elit.
+			.item
+				img(src="./img/home/slide_bg_03.png", alt="")
+				.title
+					p Lorem ipsum dolor sit amet consectetur adipisicing elit.
+			.item
+				img(src="./img/home/slide_bg_04.png", alt="")
+				.title
+					p Lorem ipsum dolor sit amet consectetur adipisicing elit.
